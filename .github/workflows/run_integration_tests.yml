@@ -1,0 +1,19 @@
+name: BCentral Integration tests
+
+on:
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Package
+        uses: ballerina-platform/ballerina-action@master
+        env:
+          WORKING_DIR: sample_trigger
+          BALLERINA_DEV_CENTRAL: true
+        with:
+          args:
+            pack

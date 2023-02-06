@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bcentralintegration-sample_trigger-0.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sample_trigger/target/cache/bcentralintegration/sample_trigger/0.1.0/java11/bcentralintegration-sample_trigger-0.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

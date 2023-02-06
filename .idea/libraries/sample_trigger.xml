@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sample_trigger">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sample_trigger/target/bin/sample_trigger.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
